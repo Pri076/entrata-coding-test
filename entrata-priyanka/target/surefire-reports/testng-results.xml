@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T15:53:26 IST" name="Surefire suite" finished-at="2024-10-24T15:54:00 IST" duration-ms="34151">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T15:53:26 IST" name="Surefire test" finished-at="2024-10-24T15:54:00 IST" duration-ms="34151">
+      <class name="EntrataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:53:26 IST" name="setUp" finished-at="2024-10-24T15:53:27 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:53:27 IST" name="testHomePageTitle" description="Test for Navigating to the Homepage and Verifying the Title" finished-at="2024-10-24T15:53:36 IST" duration-ms="8420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method signature="testCareerPage()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:53:36 IST" name="testCareerPage" description="Test for Navigating to the CareerPage and Verifying the Location Filter" finished-at="2024-10-24T15:53:46 IST" depends-on-methods="EntrataTest.testHomePageTitle" duration-ms="10674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCareerPage -->
+        <test-method signature="testBlogPage()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:53:46 IST" name="testBlogPage" description="Test for Navigating to the BlogPage and Verifying the Title and Blog" finished-at="2024-10-24T15:53:53 IST" depends-on-methods="EntrataTest.testCareerPage" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlogPage -->
+        <test-method signature="testSignIn()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:53:53 IST" name="testSignIn" description="Test for Sign In as a Property Manager" finished-at="2024-10-24T15:54:00 IST" depends-on-methods="EntrataTest.testBlogPage" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EntrataTest@3c9d0b9d]" started-at="2024-10-24T15:54:00 IST" name="tearDown" finished-at="2024-10-24T15:54:00 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EntrataTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
