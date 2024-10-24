@@ -1,3 +1,5 @@
+code is written in the JAVA and used TestNG & Maven tools
+
 1) Clone the repository on IntelliJ and load maven project.
 2) Update the path of your chromedriver version (130) in EntrataTest.java file (make sure the chromedriver version is compatible with chrome browser version)
    ->System.setProperty("webdriver.chrome.driver", "path/of/chromedriver.exe");
